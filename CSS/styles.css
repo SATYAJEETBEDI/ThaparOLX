@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    overflow-y: auto;
+    overflow-x: hidden ;
+}
+
+.wrap-cat{
+    margin-left: 115px;
+    padding: 10px;    
+}
+
+#loginButton{
+    margin-right: 1.875rem;
+
+}
+
+
+#search-bar{
+    margin-right: 15rem;
+}
+
+#navigation-bar{
+    background-color: #d9eef4 !important;
+    color: black;
+}
+
+#navBarSearchForm{
+    width: 25rem;
+    color: black;
+}
+
+#carouselExampleIndicators{
+    width: 100%;
+    height: 23.125rem;
+}
+
+.carousel-item{
+    max-height: 33.125rem;
+    max-width: 100%;
+    /* display: flex;
+  flex-flow: row nowrap;
+  align-items: center; */
+}
+
+@media screen and (max-width:990px){
+    #loginButton{
+        margin-right: 1.875rem;
+        margin-top: 10px;
+    }
+    .carousel-indicators{
+        margin-bottom: 9.8rem;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+    /* .wrap-cat{
+        display: none;
+    } */
+}
+
+#secondaryNavigationBar{
+    background-color: #051e49 !important;
+    max-height: 30px;
+}
