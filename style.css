@@ -296,6 +296,11 @@ body{
     color: #fff;
 }
 
+.cart-logo {
+    height: 25px;
+    width: 25px;
+  }
+
 #newsletter{
     display: flex;
     justify-content: space-between;
